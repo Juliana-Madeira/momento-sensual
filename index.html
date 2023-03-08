@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/script.js" defer></script>
+    <title>Momento Sensual</title>
+</head>
+<body>
+    <div class="container">   <!--show-nav virá aqui via css e javascript para rotate funcionar-->
+        <header class="header">
+            <div class="circle-container">
+                <div class="circle">
+                    <button id="close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <button id="open">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="logotipo">
+                <a href="./index.html" class="logotipo">
+                    <h4>Momento Sensual</h4>
+                </a>
+            </div>
+            <div class="signup">
+                <a href="#">
+                    <p id="login">Login</p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-circle-user icon-user"></i>
+                </a>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="hamburger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul>
+                <li><a href="./floral.html"><i class="fa-solid fa-spa"></i>Para o Dia</a></li>
+                <li><a href="./citrico.html"><i class="fa-solid fa-lemon"></i>Para a Noite</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <div class="banner">
+                <h1>Para você mulher...</h1>
+            </div>
+            <section class="wrapper">
+                <i class="fa-solid fa-angle-left" id="left"></i>
+                <div class="carousel" id="images">
+                    <a href="./floral.html"><img src="https://images.unsplash.com/photo-1643539293604-239cc115a150?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1838&q=80" alt="image carousel" class="carousel-image"></a>
+                    <img src="https://www.clubeintima.com.br/app/assets/images/dinamica/produto/1341/cor_0/original/ct196-calcinha-tanga-microfibra-listras-brilho-detalhe-renda-251122-eb598f.jpg" class="carousel-image">
+                    <img src="https://www.clubeintima.com.br/app/assets/images/dinamica/produto/1339/cor_0/ct188-calcinha-sexy-cos-renda-e-microfibra-texturizada-poa-301122-1a3155.jpg" alt="image carousel" class="carousel-image">
+                    <img src="https://www.clubeintima.com.br/app/assets/images/dinamica/produto/1244/cor_0/original/jm250-conjunto-cropped-strapp-barbatana-renda-fio-290722-809a2b.jpg" alt="image carousel" class="carousel-image">
+                    <img src="https://plus.unsplash.com/premium_photo-1670176619751-1198a09d2106?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80" alt="image carousel" class="carousel-image">
+                    <img src="https://www.clubeintima.com.br/app/assets/images/dinamica/produto/1339/cor_0/ct188-calcinha-sexy-cos-renda-e-microfibra-texturizada-poa-251122-6d8796.jpg" alt="image carousel" class="carousel-image">
+                    <img src="https://www.clubeintima.com.br/app/assets/images/dinamica/produto/1184/cor_0/ml107-camisola-estampada-suedine-e-renda-manga-japonesa-010622-8a7d5c.jpg" alt="image carousel" class="carousel-image">
+                    <img src="https://images.unsplash.com/photo-1643539293294-2f5a6bdc926c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=577&q=80" alt="image carousel" class="carousel-image">
+                </div>
+                <i class="fa-solid fa-angle-right" id="right"></i>
+            </section>
+            <div class="title-highlights">
+                <h1>Destaques</h1>
+            </div>
+            <section class="product-highlights-home">
+                <div class="row-images-home">
+                    <div class="thumbs-images">
+                        <img src="https://www.clubeintima.com.br/app/assets/images/dinamica/produto/1217/cor_0/ct180k-kit-3-calcinhas-tanga-cos-largo-renda-270622-beafb8.jpg" alt="thumb image do perfume">
+                        <img src="https://www.clubeintima.com.br/app/assets/images/dinamica/produto/1217/cor_0/ct180k-kit-3-calcinhas-tanga-cos-largo-renda-270622-da55d3.jpg" alt="thumb image do perfume">
+                    </div>
+                    <div class="product-image">
+                        <img src="https://www.clubeintima.com.br/app/assets/images/dinamica/produto/1217/cor_0/original/ct180k-kit-3-calcinhas-tanga-cos-largo-renda-280622-13d421.jpg" alt="imagem do produto" class="image-highlights-home">
+                    </div>
+                </div>
+                <div class="product-description">
+                    <h3>Tanga Cós Largo Renda</h3>
+                    <p id="subtitle-perfume">KIT COM 3 UNIDADES</p>
+                    <p class="small">R$ 22,50</p>
+                    <p class="p-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum ducimus necessitatibus dolore saepe dolor veniam, quo libero itaque repellat accusantium at omnis assumenda qui nihil ipsum ipsa? Possimus, hic quos laudantium vel porro quisquam! Quibusdam, blanditiis beatae pariatur error impedit saepe adipisci necessitatibus, qui doloremque, totam possimus accusantium cum officia. Natus quo perferendis ab, explicabo inventore placeat aut facilis recusandae delectus ipsum. Numquam ad harum perferendis veniam saepe facere optio exercitationem. </p>
+                    <button class="btn-buy">Adicionar ao carrinho</button>
+                </div>
+            </section>
+            <section class="product-highlights-home">
+                <div class="row-images-home">
+                    <div class="thumbs-images">
+                        <img src="https://www.clubeintima.com.br/app/assets/images/dinamica/produto/1217/cor_0/ct180k-kit-3-calcinhas-tanga-cos-largo-renda-270622-beafb8.jpg" alt="thumb image do perfume">
+                        <img src="https://www.clubeintima.com.br/app/assets/images/dinamica/produto/1217/cor_0/ct180k-kit-3-calcinhas-tanga-cos-largo-renda-270622-da55d3.jpg" alt="thumb image do perfume">
+                    </div>
+                    <div class="product-image">
+                        <img src="https://www.clubeintima.com.br/app/assets/images/dinamica/produto/1217/cor_0/original/ct180k-kit-3-calcinhas-tanga-cos-largo-renda-280622-13d421.jpg" alt="imagem do produto" class="image-highlights-home">
+                    </div>
+                </div>
+                <div class="product-description">
+                    <h3>Tanga Cós Largo Renda</h3>
+                    <p id="subtitle-perfume">KIT COM 3 UNIDADES</p>
+                    <p class="small">R$ 22,50</p>
+                    <p class="p-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum ducimus necessitatibus dolore saepe dolor veniam, quo libero itaque repellat accusantium at omnis assumenda qui nihil ipsum ipsa? Possimus, hic quos laudantium vel porro quisquam! Quibusdam, blanditiis beatae pariatur error impedit saepe adipisci necessitatibus, qui doloremque, totam possimus accusantium cum officia. Natus quo perferendis ab, explicabo inventore placeat aut facilis recusandae delectus ipsum. Numquam ad harum perferendis veniam saepe facere optio exercitationem. </p>
+                    <button class="btn-buy">Adicionar ao carrinho</button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="header-footer">
+                <p>
+                    <a href="#">Política de Compras</a> | 
+                    <a href="#">Política de Devolução</a> |
+                    <a href="#">Mais algo aqui</a> |
+                    <a href="#">Mais algo aqui</a>
+                </p>
+            </div>
+            <div class="footer-footer">
+                <p>Desenvolvido por <a href="">Juliana Madeira</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
